@@ -68,5 +68,3 @@ def read_urls(file_path) -> list[str]:
                 urls.append(line)
 
     return urls
-
-get_seed_urls()
