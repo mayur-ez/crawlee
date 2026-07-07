@@ -42,19 +42,6 @@ Follow the interactive menu to choose seed URLs, then watch the crawler discover
 └── storage/                # Crawlee persistent storage
 ```
 
-## Configuration
-
-Crawlee options can be set via environment variables prefixed with `CRAWLEE_`:
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `CRAWLEE_LOG_LEVEL` | `INFO` | Logging verbosity |
-| `CRAWLEE_PURGE_ON_START` | `True` | Clear storage on startup |
-| `CRAWLEE_STORAGE_DIR` | `./storage` | Storage directory |
-| `CRAWLEE_HEADLESS` | `True` | Run browsers headless (Playwright) |
-| `CRAWLEE_MAX_USED_CPU_RATIO` | `0.95` | CPU overload threshold |
-| `CRAWLEE_MAX_USED_MEMORY_RATIO` | `0.9` | Memory overload threshold |
-
 ## Dependencies
 
 - [Crawlee](https://crawlee.dev/python/) — web crawling framework
