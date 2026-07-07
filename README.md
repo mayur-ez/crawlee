@@ -1,6 +1,6 @@
 # Crawlee
 
-A Python web crawler built on the [Crawlee](https://crawlee.dev/python/) framework by Apify. Recursively scrapes websites, extracts content, and saves HTML locally.
+A Python web crawler built on the [Crawlee](https://crawlee.dev/python/) framework. Recursively scrapes websites, extracts content, and saves HTML locally.
 
 ## Features
 
